@@ -43,4 +43,4 @@ We draw insights from our data using JavaScript and HTML.
 Libraries we used are as follows;
 
  - D3
- - React.js
+ - AnyChart: AnyChart is a lightweight and robust JavaScript charting library.
