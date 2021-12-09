@@ -33,7 +33,7 @@ The tool we used is this step was [Quick Database Diagrams (QuickDBD)](https://w
 
 ## ETL Process
 
-* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams)calls.
+* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams) calls.
 
 * **Transform**: Using Jupyter Notebook and pandas, we cleaned and reorganised the data according to our needs.
 
