@@ -28,7 +28,7 @@ The tool we used is this step was [Quick Database Diagrams (QuickDBD)](https://w
 
 ![DBD](DBD.png)
 
-### ETL Process
+## ETL Process
 
 * **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams).
 
