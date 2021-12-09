@@ -42,5 +42,5 @@ We draw insights from our data using JavaScript and HTML.
 
 Libraries we used are as follows;
 
- - D3
+ - D3.js: D3 is a JavaScript library for manipulating documents based on data.
  - AnyChart: AnyChart is a lightweight and robust JavaScript charting library.
