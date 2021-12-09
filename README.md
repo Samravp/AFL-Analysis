@@ -30,8 +30,17 @@ The tool we used is this step was [Quick Database Diagrams (QuickDBD)](https://w
 
 ## ETL Process
 
-* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams).
+* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams)calls.
 
 * **Transform**: Using Jupyter Notebook and pandas, we cleaned and reorganised the data according to our needs.
 
 * **Load**: Considering the normalised and relational structure of our data, PostgreSQL was our database of choice.
+
+## Data Visualisation
+
+We draw insights from our data using JavaScript and HTML.
+
+Libraries we used are as follows;
+
+ - D3
+ - React.js
