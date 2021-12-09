@@ -22,6 +22,14 @@ Query types we used are as per below;
  - Games query
  - Tips query
 
+## ETL Process
+
+* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams) calls.
+
+* **Transform**: Using Jupyter Notebook and pandas, we cleaned and reorganised the data according to our needs.
+
+* **Load**: Considering the normalised and relational structure of our data, PostgreSQL was our database of choice.
+
 
 ## Data Engineering - Architecture Diagram
 
@@ -31,13 +39,6 @@ The tool we used is this step was [Quick Database Diagrams (QuickDBD)](https://w
 
 ![DBD](DBD.png)
 
-## ETL Process
-
-* **Extract**:Datasets were extracted using [Squiggle API](https://api.squiggle.com.au/#section_teams) calls.
-
-* **Transform**: Using Jupyter Notebook and pandas, we cleaned and reorganised the data according to our needs.
-
-* **Load**: Considering the normalised and relational structure of our data, PostgreSQL was our database of choice.
 
 ## Data Visualisation
 
