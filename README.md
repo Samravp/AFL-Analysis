@@ -1,5 +1,8 @@
 # Australian Football League Teams Analysis
 
+![image](https://user-images.githubusercontent.com/85004202/145361841-f3a29592-0804-40b9-acb3-29b20ace74a6.png)
+
+
 In this project, we aim to provide some insights on the AFL team performance throughout the past nine years (2012 - 2021).
 
 ## Team Members  👨🏻‍💻👩🏻‍💻👩🏻‍💻👩🏻‍💻
