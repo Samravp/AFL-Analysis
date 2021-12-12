@@ -1,5 +1,7 @@
 # Australian Football League Teams Analysis
 
+## Please add password for postgresql before running the code 
+
 ![image](https://user-images.githubusercontent.com/85004202/145362005-2c1d17fd-5d9f-4b01-8a6f-6dcbab84ceb0.png)
 
 
