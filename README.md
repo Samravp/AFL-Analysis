@@ -49,3 +49,7 @@ Libraries we used are as follows;
 
  - D3.js: D3 is a JavaScript library for manipulating documents based on data.
  - AnyChart: AnyChart is a lightweight and robust JavaScript charting library.
+
+## Final Dashboard
+
+![Final Dasshboard](Final Dasshboard.png)
