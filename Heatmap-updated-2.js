@@ -46,7 +46,7 @@ var data = [{
 }];
 
 var layout = {
-  title: 'AFL TEAM VS TEAM WIN RATE (%)',
+  title: '',
   annotations: [],
   xaxis: {
     ticks: '',
