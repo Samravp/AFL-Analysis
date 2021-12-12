@@ -1,6 +1,5 @@
 # Australian Football League Teams Analysis
 
-## Please add password for postgresql before running the code 
 
 ![image](https://user-images.githubusercontent.com/85004202/145362005-2c1d17fd-5d9f-4b01-8a6f-6dcbab84ceb0.png)
 
@@ -16,7 +15,7 @@ In this project, we aim to provide some insights on the AFL team performance thr
 
 
 ## Datasets
-
+### Please add password for postgresql before running the code in jupyter notebook 
 We extracted our data by performing API calls, we used [Squiggle API](https://api.squiggle.com.au/#section_teams). 
 The Squiggle API offers public access to raw data about AFL games and predictions made by popular online models.
 Query types we used are as per below;
