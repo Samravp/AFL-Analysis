@@ -55,7 +55,7 @@ var layout = {
   yaxis: {
     ticks: '',
     ticksuffix: ' ',
-    width: 500,
+    width: 400,
     height: 1000,
     autosize: true
   }
