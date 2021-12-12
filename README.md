@@ -6,6 +6,8 @@
 
 In this project, we aim to provide some insights on the AFL team performance throughout the past nine years (2012 - 2021).
 
+Please see the dashboard [here](https://samravp.github.io/AFL-Analysis/).
+
 ## Team Members  👨🏻‍💻👩🏻‍💻👩🏻‍💻👩🏻‍💻
 
 - [Ishaan Nigam](https://github.com/ishaan04)
