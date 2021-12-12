@@ -36,7 +36,7 @@
         map.unboundRegions().stroke('green'); 
         
         map.title().useHtml(true).hAlign('center');
-        map.title('<span style="font-size: 18px;">AFL Average Points by State (2012-2021)');
+        map.title('<span style="font-size: 40px;">AFL Average Points by State (2012-2021)');
 
         // set the colorRange preferences
         var cr = map.colorRange();
@@ -50,7 +50,7 @@
         var series = map.choropleth(dataSet);
     	
     	series.stroke('#000 .3');
-  series.labels().fontColor('black');
+      series.labels().fontColor('black');
 
   // define the color of the hovered district
   series.selected().fill('#5588ff');
@@ -67,7 +67,8 @@
 
   // tell the series what to use as a colorRange (colorScale)
   series.colorScale(ocs);
-
+	// enable the colorRange
+  map.colorRange(true);
   map.container('container');
   map.draw();
       });
