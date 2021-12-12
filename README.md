@@ -52,4 +52,8 @@ Libraries we used are as follows;
 
 ## Final Dashboard
 
-[Final Dashboard](Static/Final Dashboard.png)
+
+
+
+            Final Dashboard.png
+          
