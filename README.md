@@ -38,7 +38,8 @@ We created our table schemas and configured primary key and foreign keys to crea
 
 The tool we used is this step was [Quick Database Diagrams (QuickDBD)](https://www.quickdatabasediagrams.com/)
 
-![DBD](DBD.png)
+![DBD](https://user-images.githubusercontent.com/85004202/145706069-9ec59e8f-2be2-4a56-b9a9-87f67e02891f.png)
+
 
 
 ## Data Visualisation
