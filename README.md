@@ -52,5 +52,5 @@ Libraries we used are as follows;
 
 ## Final Dashboard
 
-<img width="601" alt="Final Dashboard" src="https://user-images.githubusercontent.com/85004202/145705055-1d17d334-ef01-4a52-b52d-09edb72f7eee.png">
+<img align="center" width="601" alt="Final Dashboard" src="https://user-images.githubusercontent.com/85004202/145705055-1d17d334-ef01-4a52-b52d-09edb72f7eee.png">
  
