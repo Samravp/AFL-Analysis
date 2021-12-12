@@ -1,6 +1,8 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 -- Modify this code to update the DB schema diagram.
 -- To reset the sample schema, replace everything with
 -- two dots ('..' - without quotes).
@@ -17,14 +19,12 @@ CREATE TABLE "Games" (
     "home_team" varchar   NOT NULL,
     "away_goals" int   NOT NULL,
     "home_behinds" int   NOT NULL,
-    "year" int   NOT NULL,
-    CONSTRAINT "pk_Games" PRIMARY KEY (
-        "venue"
-     )
+    "year" int   NOT NULL
 );
 
 CREATE TABLE "Players" (
     "team" varchar   NOT NULL,
+    "year" int   NOT NULL,
     "displayName" varchar   NOT NULL,
     "Disposals" int   NOT NULL,
     "Kicks" int   NOT NULL,
@@ -33,24 +33,15 @@ CREATE TABLE "Players" (
     "Goals" int   NOT NULL,
     "Behinds" int   NOT NULL,
     "Hit_Outs" int   NOT NULL,
-    "Tackles" int   NOT NULL,
-    CONSTRAINT "pk_Players" PRIMARY KEY (
-        "team"
-     )
+    "Tackles" int   NOT NULL
 );
 
-CREATE TABLE "Venue" (
-    "Venue" varchar   NOT NULL,
-    "Latitude" float   NOT NULL,
-    "Longtitude" float   NOT NULL,
-    CONSTRAINT "pk_Venue" PRIMARY KEY (
-        "Venue"
-     )
+CREATE TABLE "Points" (
+    "state" varchar   NOT NULL,
+    "points_away" float   NOT NULL,
+    "points_home" float   NOT NULL,
+    "year" int   NOT NULL,
+    "total points" float   NOT NULL,
+    "average_points" float   NOT NULL
 );
-
-ALTER TABLE "Games" ADD CONSTRAINT "fk_Games_venue" FOREIGN KEY("venue")
-REFERENCES "Venue" ("Venue");
-
-ALTER TABLE "Games" ADD CONSTRAINT "fk_Games_home_team" FOREIGN KEY("home_team")
-REFERENCES "Players" ("team");
 
