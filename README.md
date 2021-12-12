@@ -52,4 +52,4 @@ Libraries we used are as follows;
 
 ## Final Dashboard
 
-![Final Dasshboard](Final Dasshboard.png)
+![Final Dashboard](Final Dashboard.png)
