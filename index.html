@@ -1,27 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title></title>
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  $("#header").load("Diverged-bar.html"); 
-  $("#footer").load("scatter.html");
-  $("#footer").load("Point Map_Serena.html"); 
-  $("#footer").load("heatmap_index.html"); 
-});
-</script> 
-<script src='https://cdn.plot.ly/plotly-2.6.3.min.js'></script>
-<script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js" type="text/javascript"></script>
-<script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-map.min.js" type="text/javascript"></script>
-<script src="https://cdn.anychart.com/geodata/2.1.1/countries/australia/australia.js"></script>
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js" type="text/javascript"></script>
-</script> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AFL</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+      /* Float four columns side by side */
+    .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    }
+
+  </style>
 </head>
+
 <body>
-<div id="header"></div>
-<!--Remaining section-->
-<div id="footer"></div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+                <img src="Static/AFL2.png" width="250" height="150">
+            <h1>Australian Football League Dashboard</h1>
+            <p>Click on each of interactive visualisations below to explore AFL teams performance (2012-2021)</p>
+        <div class="row">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h2 class="panel-title"> AFL Team vs Team Win Rate (%)</h2>
+                </div>
+            <div id="myDiv"></div>
+        </div>
+    </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Other Performance Insights</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card"><b>Average Scored Points by State</b></div>
+                <a href="Point Map_Serena.html">
+                    <img src="Static/pointmap.png" width="350" height="300">
+                    </a>
+            </div>
+            <div class="column">
+                <div class="card"><b>Detailed Comparison of Team Performance</b></div>
+                <a href="scatter.html">
+                    <img src="Static/scatter.png" width="350" height="300">
+                    </a>
+            </div>
+            <div class="column">
+                <div class="card"><b>Team Performance Overview</b></div>
+                <a href="Diverged-bar.html">
+                    <img src="Static/barchart.png" width="350" height="300">
+                    </a>
+            </div>
+        </div><br>
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Other Relevant Information</h3>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+            <a href="https://www.championdata.com/glossary/afl/">Official AFL Glossary</a>
+        </div>
+        <div class="container">
+            <a href="https://api.squiggle.com.au/#section_teams">Squiggle AFL Games Public API</a>
+        </div>
+
+  <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+  <script src="Heatmap-updated-2.js"></script>
 </body>
+
 </html>
