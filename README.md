@@ -55,9 +55,7 @@ Libraries we used are as follows;
 
 ## Final Dashboard
 
-<p align="center">
-<img width="346" alt="Final Dashboard" src="https://user-images.githubusercontent.com/85004202/145712236-7a5c7ffa-04c1-486e-8e8b-ef9b808c3d5f.png">
+
+ <p align="center">
+<img width="364" alt="Screen Shot 2021-12-13 at 17 52 28" src="https://user-images.githubusercontent.com/85004202/145765858-28a8d867-8b82-4094-ac3f-b58cb6b095ad.png">
  </p>
-
-
- 
