@@ -27,7 +27,6 @@ h1 {
         text-align: left;
         }  
 </style>
-
 <div class="widget" style="min-width:700px">
   <h1>Comparison of Detailed Team Performances </h1>
   <div style="width:100%">
@@ -67,10 +66,8 @@ h1 {
 </select>  
 <p><span><label for="team2">Team 2</label></span>
   <select id = "team2_unique">
-  </select> 
-
+  </select>
 <button onclick="setGraph()">submit</button>
-
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script>
@@ -78,8 +75,6 @@ function drawGraph(xText, yText, yearText) {
     $('svg').remove();
     console.log(xText)
     console.log(yText)
-
-    
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -107,7 +102,6 @@ function drawGraph(xText, yText, yearText) {
         .attr("class", "tooltip")
         .style("opacity", 0);
     // load data
-    
     d3.csv("Data/Players.csv", function(error, data) {
       // change string (from CSV) into number format
       data.forEach(function(d) {
@@ -124,9 +118,7 @@ function drawGraph(xText, yText, yearText) {
       })
       // console.log(selector.node().value)
       // data = data.filter(x => x.year === selector.node().value)
-
     //drop down filter for teams
-    
       console.log(data[0].team)
       data_team = data.map(x => x.team)
       unique_team= [...new Set (data_team)]
@@ -136,9 +128,7 @@ function drawGraph(xText, yText, yearText) {
       })
       // console.log(selector.node().value)
       // data = data.filter(x => x.team === selector.node().value)
-
       //drop down filter for teams 2
-    
       // console.log(data[0].team)
       data_team2 = data.map(x => x.team)
       unique_team2= [...new Set (data_team)]
@@ -147,15 +137,11 @@ function drawGraph(xText, yText, yearText) {
           selector2.append("option").text(x).property("value", x)
       })
       console.log(selector2.node().value)
-          data_1 = data.filter(x => x.team === selector1.node().value) 
-          data_2 = data.filter(x => x.team === selector2.node().value) 
+          data_1 = data.filter(x => x.team === selector1.node().value)
+          data_2 = data.filter(x => x.team === selector2.node().value)
       data = data_1.concat(data_2)
-  
           data = data.filter(x => x.year === selector_year.node().value)
-
       console.log(data)
-
-     
       xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
       yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
       // x-axis
@@ -230,6 +216,4 @@ function setGraph() {
 }
 </script>
 </body>
-
-
 </html>
