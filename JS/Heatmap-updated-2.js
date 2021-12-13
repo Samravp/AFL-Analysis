@@ -46,6 +46,16 @@ var data = [{
 }];
 
 var layout = {
+  autosize: false,
+  width: 1000,
+  height: 700,
+  margin: {
+    l: 170,
+    r: 50,
+    b: 50,
+    t: 100,
+    pad: 4
+  },
   title: '',
   annotations: [],
   xaxis: {
